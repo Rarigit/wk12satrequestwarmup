@@ -1,0 +1,16 @@
+WARMUP
+
+1. Create a folder called RequestWarmup, connect to Git/GitHub
+2. Add an index.html and app.js file, link them together
+3. Add the script tag for axios
+4. Configure your debugger
+5. Add a button to your index.html
+6. When this button is clicked:
+  6.1. Make a GET request to https://api.openbrewerydb.org/breweries/random
+  6.2. Insert the brewery name and address onto the page on success
+  6.3. Insert an error message onto the page on failure
+7. Add a second button to idnex.html
+8. When the button is clicked:
+  8.1. Make a GET request to https://api2.binance.com/api/v3/ticker/24hr (a crypto price API)
+  8.2. On success, for each object sent back show the symbol and lastPrice
+  8.3. On failure show an error message
